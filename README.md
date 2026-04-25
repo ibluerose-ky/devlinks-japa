@@ -54,13 +54,3 @@ Praticar fundamentos do desenvolvimento web, como:
 
 ---
 
-## 📂 Como executar localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/ibluerose-ky/devlinks-japa.git
-
-# Acesse a pasta
-cd devlinks-japa
-
-# Abra o index.html no navegador

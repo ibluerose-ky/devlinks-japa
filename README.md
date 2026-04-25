@@ -8,7 +8,7 @@ Uma página de links estilo **Linktree**, moderna e responsiva, criada para cent
 
 ## 📸 Preview
 
-![Preview do Projeto](./assets/preview.png)
+![Preview do Projeto](./github/preview.jpg)
 
 > *(adicione um print do projeto na pasta assets com nome preview.png)*
 

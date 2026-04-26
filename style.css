@@ -35,14 +35,16 @@ body{
    font-family: "Inter", sans-serif;
    color: var(--text-color);
    font-weight: 400;
+   min-height: 100vh;
+   overflow-x: hidden;
 }
 
 #container{
   width: 100%;
   max-width: 588px;
 
-  margin: 56px auto 0px;
-  padding: 0 24px;
+  margin: 0 auto;
+  padding: 56px 24px 24px;
  
 }
  /*Profile*/
@@ -152,6 +154,14 @@ footer{
   text-align: center;
 }
 
+@media (min-width: 700px){
+   :root {
+    --bg-url: url(assets/bg-desktop.jpg);
+   }
+   .light{
+    --bg-url: url(assets/bg-desktop-light.jpg)
+   }
+}
 
 
 

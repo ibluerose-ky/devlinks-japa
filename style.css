@@ -50,6 +50,118 @@ body{
   margin: 0 auto;
   padding: 56px 24px 24px;
 }
+ /*Profile*/
+#profile{
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 600;
+}
+
+/*Switch*/
+ 
+#switch{
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
+}
+
+#switch button{
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+
+  animation: slide-back 0.2s;
+}
+
+.light #switch button{
+  animation: slide-in 0.4s forwards;
+}
+
+#switch button:hover{
+  outline: 8px solid var(--hightlight-color);
+}
+
+#switch span{
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 9999px;
+}
+
+/* links */
+ul{
+  margin-top: 7px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
+
+ul li a {
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  border-radius: 8px;
+  font-weight: 500;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: background 0.9s;
+}
+
+ul li a:hover{
+  background: var(--surface-color-hover);
+  border: 1.5px solid var(--text-color);
+}
+
+#social-lk{
+  display: flex;
+  padding: 24px 0;
+  font-size: 24px;
+  justify-content: center;
+}
+
+
+#social-lk a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 50%;
+  transition: background 0.5s;
+
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+#social-lk a:hover{
+  background:var(--hightlight-color);
+  border-radius: 50%;
+}
+
+footer{
+  padding: 12px 24px 20px;
+  text-align: center;
+}
 
 @media (min-width: 700px){
    :root {
